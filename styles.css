@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+.text-center {
+    font-size: 32px;
+    padding: 56px 0 32px 0;
+}
+
+body {
+    background-color: #f2f6ff;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #ccc;
+    padding: 16px 32px 16px 32px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.btn {
+    background-color: #0056ff;
+    color: white;
+    padding: 12px 24px 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+} 
+
+input[type=text], [type=password], select {
+    min-width: 50%;
+    margin-bottom: 36px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    margin: 8% auto;
+    width: fit-content;
+    height: 80%;
+    background-color: #fff;
+}
+
